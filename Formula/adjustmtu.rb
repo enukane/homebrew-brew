@@ -7,4 +7,4 @@ class Adjustmtu < Formula
     system "clang", "-o adjustmtu", "adjustmtu.c"
     bin.install "adjustmtu"
   end
-end[
+end
