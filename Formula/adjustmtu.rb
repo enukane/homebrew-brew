@@ -4,7 +4,7 @@ class Adjustmtu < Formula
   url "https://github.com/ryo/adjustmtu.git", :using => :git
 
   def install
-    system "clang", "-o adjustmtu", "adjustmtu.c"
+    system "clang -o adjustmtu adjustmtu.c"
     bin.install "adjustmtu"
   end
 end
